@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asteroizi - Personalizare</title>
+    <link rel="stylesheet" href="5_1090_CRISTIAN_LORENA_IONELA.css"> 
+   
+
+</head>
+<body>
+    <audio id="sunetColiziune" src="media/sunet_coliziune.mp3"></audio>
+    <div id="formular">
+	<audio id="sunetColiziune" src="sunet_coliziune.mp3"></audio>
+        <h2>Completează informațiile pentru a începe jocul</h2>
+        <label for="nume">Nume jucător:</label>
+        <input type="text" id="nume" required><br><br>
+        
+        <label for="varsta">Vârstă:</label>
+        <input type="number" id="varsta" required><br><br>
+
+        <label for="sex">Sex:</label>
+        <select id="sex" required>
+            <option value="femeie">Femeie</option>
+            <option value="barbat">Bărbat</option>
+        </select><br><br>
+
+        <label for="culoareNava">Culoarea navei:</label>
+        <input type="color" id="culoareNava" value="#ffffff"><br><br>
+		
+		<label for="modelNava">Modelul navei:</label>
+		<select id="modelNava" required>
+			<option value="triunghi">Triunghi simplu</option>
+			<option value="triunghi2">Triunghi dublu(romb)</option>
+		
+		</select><br><br>
+
+        <button id="startButton">Începe Jocul</button>
+    </div>
+    <canvas id="JocInterpretat" width="1520" height="660" ></canvas>
+    <script src="5_1090_CRISTIAN_LORENA_IONELA.js"></script> 
+</body>
+</html>
