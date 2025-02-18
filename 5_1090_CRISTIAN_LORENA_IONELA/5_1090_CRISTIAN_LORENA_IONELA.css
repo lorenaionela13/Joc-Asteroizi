@@ -1,0 +1,72 @@
+
+body {
+    background-color:#0d1b2a;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('media/imaginea-cu-asteroizi.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    }
+
+#formular {
+background: rgba(13, 27, 42, 0.95) url('imaginea-cu-asteroizi.jpg') no-repeat center top;
+background-size: contain;
+border-radius: 10px;
+padding: 20px;
+width: 80%;
+max-width: 400px;
+margin: auto;
+margin-top: 50px;
+box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+text-align: center;
+}
+
+label, select, input {
+    color: #fff;
+    font-size: 1rem;
+}
+
+input, select {
+    background: #222;
+    border: none;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#startButton {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+#startButton:hover {
+    background-color: #007acc;
+}
+
+#JocInterpretat {
+    display: none;
+    margin-top: 30px;
+}
+
+#imagineAsteroizi {
+width: 100%; 
+max-width: 400px; 
+border-radius: 10px;
+margin-bottom: 10px;
+box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+canvas {
+border: 5px dotted white; 
+}
